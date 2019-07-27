@@ -1,5 +1,5 @@
 # Botapod11
-Simple NodeJS Twitter Bot which uses NASA API 
+Simple NodeJS Twitter Bot which uses NASA API.
 ## How to use?
 * Make sure you have nodeJS installed, you can find it <a href="https://nodejs.org">here</a>.
 * Run ```npm install``` in your command line to install the *twit* and *node-fetch* package as the dependency.
@@ -8,6 +8,8 @@ Simple NodeJS Twitter Bot which uses NASA API
 * You are now ready to use **Botapod11** and post **Astronomy Picture of the Day** on your Twitter.
 * Type ```npm start``` or ```node app.js``` to start bot running!
 * Bot will automatically tweet **Astronomy Picture of the Day** every 24 hours!
+
+![Botapod11](https://agrochal.me/img/project1.png "Botapod11")
 
 ## License
 BSD-2-Clause
