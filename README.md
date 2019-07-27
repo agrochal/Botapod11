@@ -1,7 +1,7 @@
 # Botapod11
 Simple NodeJS Twitter Bot which uses NASA API.
 ## How to use?
-* Make sure you have nodeJS installed, you can find it <a href="https://nodejs.org">here</a>.
+* Make sure you have NodeJS installed, you can find it <a href="https://nodejs.org">here</a>.
 * Run ```npm install``` in your command line to install the *twit* and *node-fetch* package as the dependency.
 * To start using bot get your **Twitter API** and **NASA API** keys, then put them into ```configTMP.js``` file and rename it to ```config.js```.
 
