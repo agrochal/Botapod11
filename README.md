@@ -9,8 +9,6 @@ Simple NodeJS Twitter Bot which uses NASA API.
 * Type ```npm start``` or ```node app.js``` to start bot running!
 * Bot will automatically tweet **Astronomy Picture of the Day** every 24 hours!
 
-![Botapod11](https://agrochal.me/img/botapod.PNG "Botapod11")
-
 ## License
 BSD-2-Clause
 
