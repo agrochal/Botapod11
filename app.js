@@ -7,7 +7,7 @@ const config = require('./config');
 const fetch = require('node-fetch');
 
 let jsondata;
-let T = new Twit(config.keys);
+const T = new Twit(config.keys);
 
 function apod() {
   fetch(`https://api.nasa.gov/planetary/apod?api_key=${config.api}`)
@@ -29,7 +29,7 @@ function download(url, filename) {
   }
 
   function finished() {
-    let b64content = fs.readFileSync('photo.jpg', {
+    const b64content = fs.readFileSync('photo.jpg', {
       encoding: 'base64'
     });
     T.post('media/upload', {
